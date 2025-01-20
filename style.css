@@ -1,0 +1,40 @@
+@import "./node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+h1{
+    font-size: 48px;
+}
+
+.cities{
+    margin-left: 25px;
+}
+
+.nav-bar{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-info{
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.popular-city{
+    background-image: url(./src/img/popular-city.png);
+    background-size: cover;
+    background-position: center;
+    height: 257px;
+    width: 100%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
